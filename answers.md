@@ -2,7 +2,7 @@ Explain in detail the workings of a dynamic array:
 
 - What is the runtime complexity to access an array, add or remove from the front, and add or remove from the back?
 
-# Accessing an array, adding or removing from the back or front is O(1), because you know the index. If you have to search for a value, then it becomes O(N)
+# Accessing an array is typically O(1) so long as you have index. Adding or removing from the front is O(N) since you would have to shift the elements, but removing or adding to the back is O(1).
 
 - What is the worse case scenario if you try to extend the storage size of a dynamic array?
 
@@ -18,4 +18,4 @@ Explain how proof of work functions. How does it operate. How does this protect 
 
 # This prevents an attack because no single computer or even system of computers would be able to beat the collective power of all other miners to
 
-# be able to alter the chain. And even if they do, you can verify it simply.
+# be able to alter the chain. In order for someone to alter the chain, they would need 51% of the mining power.
